@@ -1,0 +1,136 @@
+header{
+  position : center;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  margin-top:20px;
+}
+.row{
+  padding:20px;
+  margin:0px;
+
+  overflow: hidden;
+}
+#p1 {
+  border: 10px ;
+  margin: 0px 0px 10px 20px;
+}
+#hh2{
+  border: 1px solid black;
+  margin:0 0 20px 65%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+
+#pp1{
+  padding:0;
+  margin:0 0 20px 0;
+  overflow:hidden;
+}
+
+@media (min-width: 992px){
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 49%;
+  }
+  .col-lg-3{
+    width: 99%;
+  }
+  .col-lg-3 #hh2{
+  border: 1px solid black;
+  margin:0 0 20px 82.5%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+}
+@media (max-width: 767px) {
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 100%;
+  }
+  .col-lg-1 #hh2{
+  border: 1px solid black;
+  margin:0 0 20px 75%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+}
+
+
+
+/** HEADER **/
+/*#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}*/

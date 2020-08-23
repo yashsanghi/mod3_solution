@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <title>MENU</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
+  </head>
+  <style>
+    header{
+  position : center;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  margin-top:20px;
+}
+.row{
+  padding:20px;
+  margin:0px;
+
+  overflow: hidden;
+}
+#p1 {
+  border: 10px ;
+  margin: 0px 0px 10px 20px;
+}
+#hh2{
+  border: 1px solid black;
+  margin:0 0 20px 65%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+
+#pp1{
+  padding:0;
+  margin:0 0 20px 0;
+  overflow:hidden;
+}
+
+@media (min-width: 992px){
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 49%;
+  }
+  .col-lg-3{
+    width: 99%;
+  }
+  .col-lg-3 #hh2{
+  border: 1px solid black;
+  margin:0 0 20px 82.5%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+}
+@media (max-width: 767px) {
+  .col-lg-1{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 3px ;
+    background-color: grey;
+    width: 100%;
+  }
+  .col-lg-1 #hh2{
+  border: 1px solid black;
+  margin:0 0 20px 75%;
+  padding: 4px 2% 4px 2% ;
+  color: green;
+  background-color: lightblue;
+  text-align: right;
+}
+}
+
+  </style>
+  <body>
+    <header>
+      Our Menu !
+    </header>
+    <div class="row">
+      <div class="col-lg-1">
+        <div id="p1">
+        <h2 id="hh2">London</h2>
+        <p1 id="pp1">London is the most populous city in the United Kingdom,
+        with a metropolitan area of over 9 million inhabitants.</p1>
+      </div>
+      </div>
+
+      <div class="col-lg-1">
+        <div id="p1">
+        <h2 id="hh2">London</h2>
+        <p1 id="pp1">London is the most populous city in the United Kingdom,
+        with a metropolitan area of over 9 million inhabitants.</p1>
+      </div>
+      </div>
+
+      <div class="col-lg-1 col-lg-3" >
+        <div id="p1">
+        <h2 id="hh2">London</h2>
+        <p1 id="pp1">London is the most populous city in the United Kingdom,
+        with a metropolitan area of over 9 million inhabitants.</p1>
+      </div>
+      </div>
+    </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+ -->
+  </body>
+</html>
